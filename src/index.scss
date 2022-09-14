@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  /* Colors: */
+  --grey: #9d9d9d;
+  --white: #ffffff;
+  --black: #000000;
+  --red: #ea4c5c;
+
+  /* Font/text values */
+  --font-family-lexend-deca: Lexend Deca;
+  --font-style-normal: normal;
+  --font-weight-normal: normal;
+  --font-weight-bold: bold;
+  --font-weight-800: 800;
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-22: 22px;
+  --font-size-32: 32px;
+  --font-size-44: 44px;
+  --line-spacing-15: 15px;
+  --line-spacing-18: 18px;
+  --line-spacing-20: 20px;
+  --line-spacing-28: 28px;
+  --line-spacing-40: 40px;
+  --character-spacing--2-2: -2.2px;
+  --character-spacing-0: 0px;
+  --character-spacing-0-24: 0.24px;
+  --character-spacing-0-32: 0.32px;
+  --character-spacing-0-44: 0.44px;
+  --character-spacing-0-64: 0.64px;
+  --text-transform-none: none;
+  --text-transform-capitalize: capitalize;
+  --text-transform-uppercase: uppercase;
+  --text-transform-lowercase: lowercase;
+
+  --header-height: 60px;
+  --footer-height: 250px;
+}

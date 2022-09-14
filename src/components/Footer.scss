@@ -1,0 +1,15 @@
+.footer {
+  height: var(--footer-height);
+  width: 100%;
+  position: relative;
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__image {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+}

@@ -1,0 +1,50 @@
+.button {
+  height: 30px;
+  min-width: 140px;
+  border: 2px solid var(--black);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--contained-dark {
+  background-color: var(--black);
+}
+
+.button--contained-dark:hover {
+  background-color: var(--white);
+}
+
+.button--contained-dark:hover .button__label {
+  color: var(--black);
+}
+
+.button--contained-light {
+  background-color: var(--white);
+}
+
+.button--contained-light:hover {
+  background-color: var(--black);
+}
+
+.button--contained-light:hover .button__label {
+  color: var(--white);
+}
+
+.button--outlined-dark {
+  background-color: var(--black);
+  border: 2px solid var(--white);
+}
+
+.button--outlined-light {
+  background-color: var(--white);
+}
+
+.button--outlined-light:hover {
+  background-color: var(--black);
+}
+
+.button--outlined-light:hover .button__label {
+  color: var(--white);
+}

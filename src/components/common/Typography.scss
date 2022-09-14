@@ -1,0 +1,80 @@
+.typography {
+  font-family: var(--font-family-lexend-deca);
+  font-style: var(--font-style-normal);
+}
+
+.typography--weight-regular {
+  font-weight: var(--font-weight-normal);
+}
+
+.typography--weight-extra-bold {
+  font-weight: var(--font-weight-800);
+}
+
+.typography--size-12 {
+  font-size: var(--font-size-12);
+  line-height: var(--line-spacing-15);
+  letter-spacing: var(--character-spacing-0-24);
+}
+
+.typography--size-14 {
+  font-size: var(--font-size-14);
+  line-height: var(--line-spacing-18);
+  letter-spacing: var(--character-spacing-0);
+}
+
+.typography--size-16 {
+  font-size: var(--font-size-16);
+  line-height: var(--line-spacing-20);
+  letter-spacing: var(--character-spacing-0-32);
+}
+
+.typography--size-22 {
+  font-size: var(--font-size-22);
+  line-height: var(--line-spacing-28);
+  letter-spacing: var(--character-spacing-0-44);
+}
+
+.typography--size-32 {
+  font-size: var(--font-size-32);
+  line-height: var(--line-spacing-40);
+  letter-spacing: var(--character-spacing-0-64);
+}
+
+.typography--size-44 {
+  font-size: var(--font-size-44);
+  line-height: var(--line-spacing-40);
+  letter-spacing: var(--character-spacing--2-2);
+}
+
+.typography--light {
+  color: var(--white);
+}
+
+.typography--dark {
+  color: var(--black);
+}
+
+.typography--grey {
+  color: var(--grey);
+}
+
+.typography--red {
+  color: var(--red);
+}
+
+.typography--transform-none {
+  text-transform: var(--text-transform-none);
+}
+
+.typography--transform-capitalize {
+  text-transform: var(--text-transform-capitalize);
+}
+
+.typography--transform-uppercase {
+  text-transform: var(--text-transform-uppercase);
+}
+
+.typography--transform-lowercase {
+  text-transform: var(--text-transform-lowercase);
+}

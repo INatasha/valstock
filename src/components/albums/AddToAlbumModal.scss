@@ -1,0 +1,25 @@
+.add-to-album-modal {
+}
+
+.add-to-album-modal__tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-album-modal__tab {
+  cursor: pointer;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.add-to-album-modal__tab-content {
+  height: 150px;
+}
+
+.add-to-album-modal__action {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
